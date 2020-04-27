@@ -1,5 +1,5 @@
 board = ["X", "X", "X", " ", "", " ", " ", " ", " "]
-x = "#{board}"
+x = "#{board[0]}"
 o = "#{board}"
 def display_board
  puts " #{board[0]} | #{board[1]} | #{board[2]} "
