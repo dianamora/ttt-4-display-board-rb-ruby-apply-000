@@ -8,7 +8,7 @@ x = "#{board[5]}"
 x = "#{board[6]}"
 x = "#{board[7]}"
 x = "#{board[8]}"
-board
+board[1] = "x"
 def display_board
  puts " #{board[0]} | #{board[1]} | #{board[2]} "
  puts "-----------"
